@@ -27,6 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Application
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "AppService\AppService.csproj", "{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56C53BFD-87F8-4DC6-B411-535C89C523E7}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,35 +76,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF66347D-B3D4-4E55-B3F8-EE4F8F4480A8}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.101.84:8080/tfs/consulting
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = API\\API.csproj
-		SccProjectTopLevelParentUniqueName1 = Consulting.sln
-		SccProjectName1 = API
-		SccLocalPath1 = API
-		SccProjectUniqueName2 = AppService\\AppService.csproj
-		SccProjectTopLevelParentUniqueName2 = Consulting.sln
-		SccProjectName2 = AppService
-		SccLocalPath2 = AppService
-		SccProjectUniqueName3 = Common\\Common.csproj
-		SccProjectTopLevelParentUniqueName3 = Consulting.sln
-		SccProjectName3 = Common
-		SccLocalPath3 = Common
-		SccProjectUniqueName4 = Core.Domain\\Domains.csproj
-		SccProjectTopLevelParentUniqueName4 = Consulting.sln
-		SccProjectName4 = Core.Domain
-		SccLocalPath4 = Core.Domain
-		SccProjectUniqueName5 = Core.Infrastructure\\Infrastructure.csproj
-		SccProjectTopLevelParentUniqueName5 = Consulting.sln
-		SccProjectName5 = Core.Infrastructure
-		SccLocalPath5 = Core.Infrastructure
-		SccProjectUniqueName6 = UnitTest\\UnitTest.csproj
-		SccProjectTopLevelParentUniqueName6 = Consulting.sln
-		SccProjectName6 = UnitTest
-		SccLocalPath6 = UnitTest
 	EndGlobalSection
 EndGlobal
