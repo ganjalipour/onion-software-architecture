@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{AE2901FC-1E58-4817-B908-2711E258A603}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3FA735F9-7D06-4052-93C1-1C04DC2A4438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{440C5BB1-1443-4B34-BD73-B9A5D803347B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AFDDA9FE-CCFC-47AC-BD37-6674938654D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1D4FA3FF-FA90-4475-9A3A-860E5C43DDF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{AFAB1B5A-B97E-46C4-86B7-021A1EDD142C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domains", "Core.Domain\Domains.csproj", "{AD79BE38-4414-44EB-92E4-EA710F8F85E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{65B05AA2-6320-4503-8313-611EC44B926F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Core.Infrastructure\Infrastructure.csproj", "{0406FCDB-DDB9-4C01-9723-B4C60C5A8189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{743461F4-84FC-42C9-B453-34B1AF835969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{E05B599A-8127-4AA2-8284-C2B8ACC02105}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "AppService\AppService.csproj", "{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2901FC-1E58-4817-B908-2711E258A603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2901FC-1E58-4817-B908-2711E258A603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2901FC-1E58-4817-B908-2711E258A603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2901FC-1E58-4817-B908-2711E258A603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDDA9FE-CCFC-47AC-BD37-6674938654D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDDA9FE-CCFC-47AC-BD37-6674938654D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDDA9FE-CCFC-47AC-BD37-6674938654D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDDA9FE-CCFC-47AC-BD37-6674938654D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD79BE38-4414-44EB-92E4-EA710F8F85E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD79BE38-4414-44EB-92E4-EA710F8F85E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD79BE38-4414-44EB-92E4-EA710F8F85E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD79BE38-4414-44EB-92E4-EA710F8F85E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0406FCDB-DDB9-4C01-9723-B4C60C5A8189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0406FCDB-DDB9-4C01-9723-B4C60C5A8189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0406FCDB-DDB9-4C01-9723-B4C60C5A8189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0406FCDB-DDB9-4C01-9723-B4C60C5A8189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743461F4-84FC-42C9-B453-34B1AF835969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743461F4-84FC-42C9-B453-34B1AF835969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743461F4-84FC-42C9-B453-34B1AF835969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743461F4-84FC-42C9-B453-34B1AF835969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936A5577-6CD8-4791-9F4B-DDA0B7B8F121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE2901FC-1E58-4817-B908-2711E258A603} = {3FA735F9-7D06-4052-93C1-1C04DC2A4438}
+		{AFDDA9FE-CCFC-47AC-BD37-6674938654D8} = {440C5BB1-1443-4B34-BD73-B9A5D803347B}
+		{AD79BE38-4414-44EB-92E4-EA710F8F85E2} = {AFAB1B5A-B97E-46C4-86B7-021A1EDD142C}
+		{0406FCDB-DDB9-4C01-9723-B4C60C5A8189} = {65B05AA2-6320-4503-8313-611EC44B926F}
+		{743461F4-84FC-42C9-B453-34B1AF835969} = {1D4FA3FF-FA90-4475-9A3A-860E5C43DDF3}
+		{936A5577-6CD8-4791-9F4B-DDA0B7B8F121} = {E05B599A-8127-4AA2-8284-C2B8ACC02105}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF66347D-B3D4-4E55-B3F8-EE4F8F4480A8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.101.84:8080/tfs/consulting
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = API\\API.csproj
+		SccProjectTopLevelParentUniqueName1 = Consulting.sln
+		SccProjectName1 = API
+		SccLocalPath1 = API
+		SccProjectUniqueName2 = AppService\\AppService.csproj
+		SccProjectTopLevelParentUniqueName2 = Consulting.sln
+		SccProjectName2 = AppService
+		SccLocalPath2 = AppService
+		SccProjectUniqueName3 = Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName3 = Consulting.sln
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = Core.Domain\\Domains.csproj
+		SccProjectTopLevelParentUniqueName4 = Consulting.sln
+		SccProjectName4 = Core.Domain
+		SccLocalPath4 = Core.Domain
+		SccProjectUniqueName5 = Core.Infrastructure\\Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName5 = Consulting.sln
+		SccProjectName5 = Core.Infrastructure
+		SccLocalPath5 = Core.Infrastructure
+		SccProjectUniqueName6 = UnitTest\\UnitTest.csproj
+		SccProjectTopLevelParentUniqueName6 = Consulting.sln
+		SccProjectName6 = UnitTest
+		SccLocalPath6 = UnitTest
+	EndGlobalSection
+EndGlobal
